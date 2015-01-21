@@ -223,7 +223,13 @@ Map {
     text-name: "'Danke Strato'";
   }
   [uid=~'.*3.$'] {
-    text-name: "'Danke Straß'";
+    text-name: "'Dankestraße'";
+    [uid=~'.*30$'] {
+      text-name: "'Bedanktstraat'";  // Dutch, thanks to IIVQ
+    }
+    [uid=~'.*31$'] {
+      text-name: "'Bedanktweg'";  // Dutch too, thanks to IIVQ
+    }
   }
   [uid=~'.*4.$'] {
     text-name: "'Calle Muchas Gracias'";
@@ -236,6 +242,9 @@ Map {
   }
   [uid=~'.*7.$'] {
     text-name: "'شكرا الشارع'";
+  }
+  [uid=~'.*8.$'] {
+    text-name: "'Takgade'"; // Danish, thanks to hjart
   }
   [kind='major_road'] {
     [uid=~'.*0.$'] {
