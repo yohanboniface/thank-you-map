@@ -23,4 +23,5 @@ inside the repository:
 
 
 It uses vector tiles from [Mapzen](https://github.com/mapzen/vector-datasource)
-(thanks to them!), so you need to import data locally. Of course, do not abuse.
+(thanks to them!), so you don't need to import data locally. Of course, do not
+abuse.
