@@ -256,6 +256,9 @@ Map {
     [uid=~'.*2.$'] {
       text-name: "'Thank You Av.'";
     }    
+    [uid=~'.*3.$'] {
+      text-name: "'Hartelijk bedankt'";  // Dutch, thanks to IIVQ
+    }
   }
 }
 
