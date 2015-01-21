@@ -20,7 +20,8 @@ layers:
   - landuse
   - water
   - buildings
+  - roads.geo
   - places
-  - roads
+  - roads.label
 Stylesheet:
   - "style.mss"

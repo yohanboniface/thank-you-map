@@ -155,7 +155,7 @@ Map {
     }
   }
 }
-#roads[kind='major_road'][is_bridge='no'][zoom>=12]::surface {
+#roads.geo[kind='major_road'][is_bridge='no'][zoom>=12]::surface {
   line-width: 3;
   line-color: @land;
   [zoom=15] { line-width: 4;}
@@ -196,8 +196,8 @@ Map {
   }
   comp-op: multiply;
 }
-#roads[kind='minor_road'][is_bridge='no'][name!=null][zoom>=15],
-#roads[kind='major_road'][is_bridge='no'][zoom>=15] {
+#roads.label[kind='minor_road'][is_bridge='no'][name!=null][zoom>=15],
+#roads.label[kind='major_road'][is_bridge='no'][zoom>=15] {
   text-name: "'Thank You St.'";
   text-size: 10;
   [zoom>=16] {
