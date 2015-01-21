@@ -252,12 +252,15 @@ Map {
     }
     [uid=~'.*1.$'] {
       text-name: "'Bd des Remerciements'";
-    }    
+    }
     [uid=~'.*2.$'] {
       text-name: "'Thank You Av.'";
-    }    
+    }
     [uid=~'.*3.$'] {
       text-name: "'Hartelijk bedankt'";  // Dutch, thanks to IIVQ
+    }
+    [uid=~'.*4.$'] {
+      text-name: "'Mange tak'";  // Dutch, thanks to hjart
     }
   }
 }
