@@ -238,7 +238,7 @@ Map {
     text-name: "'谢谢街道'";  // Chinese.
   }
   [uid=~'.*6.$'] {
-    text-name: "'спасибо улица'";
+    text-name: "'Благодарственная улица'";  // Russian, thanks to Zverik.
   }
   [uid=~'.*7.$'] {
     text-name: "'شكرا الشارع'";
