@@ -241,7 +241,7 @@ Map {
     text-name: "'Благодарственная улица'";  // Russian, thanks to Zverik.
   }
   [uid=~'.*7.$'] {
-    text-name: "'شكرا الشارع'";
+    text-name: "'الشارع شكرا'";
   }
   [uid=~'.*8.$'] {
     text-name: "'Takgade'"; // Danish, thanks to hjart
