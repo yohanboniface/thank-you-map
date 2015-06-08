@@ -103,25 +103,25 @@ Map {
 #places[kind='neighbourhood'][zoom>=12],
 #places[kind='suburb'][zoom>=12] {
   text-name: "'Merci'";
-  [uid=~'.*0$'] {
+  [id=~'.*0$'] {
     text-name: "'Grazie'";
   }
-  [uid=~'.*1$'] {
+  [id=~'.*1$'] {
     text-name: "'спасибо'";
   }
-  [uid=~'.*2$'] {
+  [id=~'.*2$'] {
     text-name: "'Danke Schön'";
   }
-  [uid=~'.*3$'] {
+  [id=~'.*3$'] {
     text-name: "'Dankon'";
   }
-  [uid=~'.*3$'] {
+  [id=~'.*3$'] {
     text-name: "'Thank You'";
   }
-  [uid=~'.*4$'] {
+  [id=~'.*4$'] {
     text-name: "'Murakomeye'";  // Kirundi.
   }
-  [uid=~'.*5$'] {
+  [id=~'.*5$'] {
     text-name: "'Gracias'";
   }
   text-fill: @city_text;
@@ -167,31 +167,31 @@ Map {
 #buildings[zoom>=15] {
   polygon-fill: @building;
   polygon-opacity: 0.8;
-  [uid=~'.*1$'] {
+  [id=~'.*1$'] {
     polygon-fill: lighten(@building, 3%);
   }
-  [uid=~'.*2$'] {
+  [id=~'.*2$'] {
     polygon-fill: #E08283;
   }
-  [uid=~'.*3$'] {
+  [id=~'.*3$'] {
     polygon-fill: lighten(@building, 5%);
   }
-  [uid=~'.*4$'] {
+  [id=~'.*4$'] {
     polygon-fill: darken(@building, 7%);
   }
-  [uid=~'.*5$'] {
+  [id=~'.*5$'] {
     polygon-fill: darken(@building, 2%);
   }
-  [uid=~'.*6$'] {
+  [id=~'.*6$'] {
     polygon-fill: darken(@building, 5%);
   }
-  [uid=~'.*7$'] {
+  [id=~'.*7$'] {
     polygon-fill: #F1A9A0;
   }
-  [uid=~'.*8$'] {
+  [id=~'.*8$'] {
     polygon-fill: #FDE3A7;
   }
-  [uid=~'.*9$'] {
+  [id=~'.*9$'] {
     polygon-fill: lighten(@building, 7%);
   }
   comp-op: multiply;
@@ -213,53 +213,53 @@ Map {
   text-face-name: @sans;
   text-avoid-edges: true;
   text-min-padding: 3;
-  [uid=~'.*0.$'] {
+  [id=~'.*0.$'] {
     text-name: "'Viale Grazie'";
   }
-  [uid=~'.*1.$'] {
+  [id=~'.*1.$'] {
     text-name: "'Rue des Mille Mercis'";
   }
-  [uid=~'.*2.$'] {
+  [id=~'.*2.$'] {
     text-name: "'Danke Strato'";
   }
-  [uid=~'.*3.$'] {
+  [id=~'.*3.$'] {
     text-name: "'Dankestraße'";
-    [uid=~'.*30$'] {
+    [id=~'.*30$'] {
       text-name: "'Bedanktstraat'";  // Dutch, thanks to IIVQ
     }
-    [uid=~'.*31$'] {
+    [id=~'.*31$'] {
       text-name: "'Bedanktweg'";  // Dutch too, thanks to IIVQ
     }
   }
-  [uid=~'.*4.$'] {
+  [id=~'.*4.$'] {
     text-name: "'Calle Muchas Gracias'";
   }
-  [uid=~'.*5.$'] {
+  [id=~'.*5.$'] {
     text-name: "'谢谢街道'";  // Chinese.
   }
-  [uid=~'.*6.$'] {
+  [id=~'.*6.$'] {
     text-name: "'Благодарственная улица'";  // Russian, thanks to Zverik.
   }
-  [uid=~'.*7.$'] {
+  [id=~'.*7.$'] {
     text-name: "'الشارع شكرا'";
   }
-  [uid=~'.*8.$'] {
+  [id=~'.*8.$'] {
     text-name: "'Takgade'"; // Danish, thanks to hjart
   }
   [kind='major_road'] {
-    [uid=~'.*0.$'] {
+    [id=~'.*0.$'] {
       text-name: "'Via Grazie Mille'";
     }
-    [uid=~'.*1.$'] {
+    [id=~'.*1.$'] {
       text-name: "'Bd des Remerciements'";
     }
-    [uid=~'.*2.$'] {
+    [id=~'.*2.$'] {
       text-name: "'Thank You Av.'";
     }
-    [uid=~'.*3.$'] {
+    [id=~'.*3.$'] {
       text-name: "'Hartelijk bedankt'";  // Dutch, thanks to IIVQ
     }
-    [uid=~'.*4.$'] {
+    [id=~'.*4.$'] {
       text-name: "'Mange tak'";  // Dutch, thanks to hjart
     }
   }
