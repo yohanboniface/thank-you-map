@@ -51,7 +51,7 @@ Map {
   // }
 }
 
-#water {
+#water[area!=null] {
   polygon-fill: #81CFE0;
   comp-op: multiply;
 }
