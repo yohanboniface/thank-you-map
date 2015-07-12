@@ -19,11 +19,11 @@
 @village_text:      #444;
 @village_halo:      @land;
 
-@sans:              'Fira Sans Regular','DejaVu Sans Book','Unifont Medium';
-@sans_bold:         'Fira Sans Bold','Unifont Medium';
-@sans_bold_italic:  'Fira Sans Bold Italic','Unifont Medium';
-@sans_light:        'Fira Sans Light','Unifont Medium';
-@sans_book:         'Fira Sans Book','Unifont Medium';
+@sans:              'Fira Sans Regular','DejaVu Sans Book','unifont Medium';
+@sans_bold:         'Fira Sans Bold','unifont Medium';
+@sans_bold_italic:  'Fira Sans Bold Italic','unifont Medium';
+@sans_light:        'Fira Sans Light','unifont Medium';
+@sans_book:         'Fira Sans Book','unifont Medium';
 
 
 /* *********** */
